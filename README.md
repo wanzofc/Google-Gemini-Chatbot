@@ -81,7 +81,3 @@ Include a screenshot or a link to the live demo if you have one.
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software as you see fit.
-
----
-
-This README file provides a comprehensive overview of your project and instructions on how to use and customize it. You can adjust the content to match the specifics of your project.
