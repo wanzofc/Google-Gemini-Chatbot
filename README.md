@@ -11,6 +11,9 @@
 - [Customization](#customization)
 - [License](#license)
 
+## Live Demo
+[Check it out here!](https://google-gemini-chatbot-plum.vercel.app/).
+
 ## Introduction
 
 This project is a responsive web-based chat application that leverages the power of the GPT API to provide intelligent and interactive conversations. Users can interact with the chatbot, toggle between light and dark themes, and save chat history across sessions.
