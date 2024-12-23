@@ -20,15 +20,7 @@ const loadDataFromLocalstorage = () => {
   document.body.classList.toggle("hide-header", savedChats);
   chatContainer.scrollTo(0, chatContainer.scrollHeight);
 }
-const loadDataFromLocalstorage = () => {
-  const savedChats = localStorage.getItem("saved-chats");
-  const isLightMode = (localStorage.getItem("themeColor") === "light_mode");
-  document.body.classList.toggle("light_mode", isLightMode);
-  toggleThemeButton.innerText = isLightMode ? "dark_mode" : "light_mode";
-  chatContainer.innerHTML = savedChats || '';
-  document.body.classList.toggle("hide-header", savedChats);
-  chatContainer.scrollTo(0, chatContainer.scrollHeight);
-}
+
 
 const createMessageElement = (content, ...classes) => {
   const div = document.createElement("div");
