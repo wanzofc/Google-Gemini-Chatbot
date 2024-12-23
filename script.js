@@ -4,10 +4,11 @@ const suggestions = document.querySelectorAll(".suggestion");
 const toggleThemeButton = document.querySelector("#theme-toggle-button");
 const deleteChatButton = document.querySelector("#delete-chat-button");
 
+
 let userMessage = null;
 let isResponseGenerating = false;
 
-const API_KEY = "AIzaSyCxYFAgagglKAgLTmT688wPo4i8rAkl7KE";
+const API_KEY = "AIzaSyALV8r7Z51MRIywjoraQ1-Kgrc3yWCs3wg";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 const loadDataFromLocalstorage = () => {
