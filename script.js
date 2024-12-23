@@ -20,7 +20,7 @@ const loadDataFromLocalstorage = () => {
   document.body.classList.toggle("hide-header", savedChats);
   chatContainer.scrollTo(0, chatContainer.scrollHeight);
 }
-
+Fix: api-quota-exceed
 
 const createMessageElement = (content, ...classes) => {
   const div = document.createElement("div");
